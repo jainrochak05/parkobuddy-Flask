@@ -136,16 +136,8 @@ CREATE TABLE centd (
 );
 ```
 
-## Security Notes
-
-⚠️ **Important**: This project contains hardcoded credentials and security vulnerabilities:
-- Database credentials are exposed in the code
-- Email credentials are hardcoded
-- SQL injection vulnerabilities (using `.format()` instead of parameterized queries)
-- Simple secret key configuration
 
 **For production use, please**:
-1. Use environment variables for sensitive data
 2. Implement proper SQL parameterization
 3. Add input validation and sanitization
 4. Use a secure secrets management system
@@ -180,7 +172,7 @@ This project is open source and available under the MIT License.
 
 ## Contact
 
-For queries or suggestions, feel free to reach out!
+For queries or suggestions, feel free to reach out!!!
 
 ---
 
